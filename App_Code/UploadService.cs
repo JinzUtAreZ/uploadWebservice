@@ -78,7 +78,7 @@ public class UploadService : System.Web.Services.WebService {
     }
 
     [WebMethod]
-    public string ViewFile()
+    public List<FileData> ViewFile()
     {
         List<FileData> newdt = new List<FileData>();
         string errmsg = "";
